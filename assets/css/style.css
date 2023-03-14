@@ -1,0 +1,73 @@
+:root {
+    --cor-primaria: #5e9fa3;
+    --cor-secundaria: #dcd1b4;
+    --cor-terciaria: #fab87f;
+    --cor-texto: aliceblue;
+    --gap: 3rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #5e9fa3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 5.5rem;
+}
+
+h3 {
+    font-size: 5rem;
+}
+
+h4 {
+    font-size: 4.5rem;
+}
+
+h5 {
+    font-size: 4rem;
+}
+
+h6 {
+    font-size: 3.5rem;
+}
+
+.main-bg {
+    background-image: url('../img/main-bg.svg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: var(--cor-texto);
+}
+
+.white-bg {
+    background-color: var(--cor-texto);
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
+.section {
+    min-height: 100vh;
+}
