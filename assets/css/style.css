@@ -63,7 +63,7 @@ h6 {
 }
 
 .main-content {
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
     padding: var(--gap);
 }
@@ -71,7 +71,9 @@ h6 {
 .section {
     min-height: 100vh;
 }
+
 /* MENU */
+
 .menu {
     background-color: var(--cor-texto);
     position: fixed;
@@ -79,7 +81,7 @@ h6 {
     left: 0;
     right: 0;
     width: 100%;
-    border-bottom: 1px solid var(--cor-terciaria);
+    border-bottom: 0.1rem solid var(--cor-terciaria);
 }
 
 .menu a {
