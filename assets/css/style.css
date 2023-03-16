@@ -133,4 +133,8 @@ h6 {
         margin-top: 2rem;
         flex-direction: column;
     }
+
+    .menu ul li a {
+        font-size: 1.4rem;
+    }
 }
