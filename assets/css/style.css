@@ -3,6 +3,7 @@
     --cor-secundaria: #dcd1b4;
     --cor-terciaria: #fab87f;
     --cor-texto: aliceblue;
+    --cor-texto1:
     --gap: 3rem;
 }
 
@@ -13,6 +14,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -33,6 +35,7 @@ h1 {
 
 h2 {
     font-size: 5.5rem;
+    margin-bottom: 3rem;
 }
 
 h3 {
@@ -49,6 +52,10 @@ h5 {
 
 h6 {
     font-size: 3.5rem;
+}
+
+p {
+    margin-bottom: 3rem;
 }
 
 .main-bg {
@@ -145,7 +152,7 @@ h6 {
     height: 65px;
 }
 
-/* INTROUÇÃO*/
+/* Biografia */
 
 .intro-content {
     display: grid;
@@ -173,4 +180,15 @@ h6 {
 .intro-img img {
     max-width: 100%;
     height: auto;
+}
+
+/* Histórico */
+
+.historico {
+    max-width: 64rem;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
 }
