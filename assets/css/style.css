@@ -73,7 +73,7 @@ p {
 .main-content {
     max-width: 120rem;
     margin: 0 auto;
-    padding: var(--gap);
+    padding: 10rem var(--gap);
 }
 
 .section {
@@ -158,7 +158,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
     top: -8rem;
 }
@@ -188,7 +188,7 @@ p {
     max-width: 64rem;
     height: 100vh;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
     text-align: center;
 }
@@ -196,7 +196,7 @@ p {
 /* Galeria */
 
 .galeria-um-content {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
