@@ -10,6 +10,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -160,7 +161,6 @@ p {
     gap: var(--gap);
     min-height: 100vh;
     position: relative;
-    top: -8rem;
 }
 
 .intro-text-content, .intro-img {
@@ -258,4 +258,33 @@ p {
 
 .galeria-main {
     margin-top: 6rem;
+}
+/* Contato*/
+
+.contact-form {
+    grid-column: span 2;
+}
+
+.contact-form .form-grid {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap);
+}
+
+.form-group {
+    flex: 1 1 32rem;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input, .form-group textarea {
+    border: none;
+    background: var(--cor-texto);
+    padding: 1.5rem;
+    width: 100%;
+    
 }
