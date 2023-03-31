@@ -11,11 +11,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <input type="checkbox" name="" id="close-menu" role="button" aria-label="close menu" class="close-menu">
+    <label for="close-menu" title="close menu" class="close-menu-label"></label>
     <aside class="menu">
         <div class="main-content menu-content">
-            <h1><a href="#intro">Portfólio</a></h1>
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="#intro">Portfólio</a></h1>
             <nav>
-                <ul>
+                <ul onclick="getElementById('close-menu').checked = false;">
                     <li><a href="#intro">Biografia</a></li>
                     <li><a href="#historico">Histórico</a></li>
                     <li><a href="#trabalhos">Trabalhos</a></li>
@@ -141,5 +144,7 @@
     <footer id="footer" class="footer white-bg">
         <p>Feito com <span class="coracao">♥</span> por <a href="https://gabryeljackson.my.canva.site/portfoliodeti" target="_blank">Gabryel Jackson</a> </p>
     </footer>
+
+    <a href="#intro" class="back-to-top">☝</a>
 </body>
 </html>
