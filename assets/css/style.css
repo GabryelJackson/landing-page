@@ -418,4 +418,9 @@ body .full-width {
     .menu-spacing {
         display: none;
     }
+
+    h1 {
+        font-size: 3rem;
+        text-transform: uppercase;
+    }
 }
